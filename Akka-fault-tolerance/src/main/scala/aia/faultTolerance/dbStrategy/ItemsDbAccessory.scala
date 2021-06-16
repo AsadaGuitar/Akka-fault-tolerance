@@ -8,7 +8,7 @@ class ItemsDbAccessory(val url: String) {
 
   val driver: String = "com.mysql.cj.jdbc.Driver"
   val username: String = "root"
-  val password: String = "Asd18894"
+  val password: String = "***********"
   var connection: Option[Connection] = None
 
   def setConnection(): Unit ={
