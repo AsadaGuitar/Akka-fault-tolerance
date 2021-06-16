@@ -1,0 +1,115 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download" ;*/*:dumpStructureTo C:/Users/soroc/AppData/Local/Temp/sbt-structure.xml; session clear-all ; set ideaPort in Global := 61964, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.5 (Oracle Corporation Java 15.0.2)
+[debug]       Load.loadUnit: plugins took 15.8886ms
+[debug]       Load.loadUnit: defsScala took 0.0027ms
+[debug] [Loading] Scanning directory C:\Users\soroc\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\soroc\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9122 ms
+[debug]           Load.resolveProject(global-plugins) took 0.7449ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\soroc\.sbt\1.0\plugins, plugins: List(<none>))) took 1.9687ms
+[debug] [Loading] Done in C:\Users\soroc\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 2.8026ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0162ms
+[debug]     Load.loadUnit(file:/C:/Users/soroc/.sbt/1.0/plugins/, ...) took 19.7387ms
+[debug]   Load.apply: load took 20.7987ms
+[debug]   Load.apply: resolveProjects took 0.1016ms
+[debug]   Load.apply: finalTransforms took 6.67ms
+[debug]   Load.apply: config.delegates took 0.2588ms
+[debug]   Load.apply: Def.make(settings)... took 60.9752ms
+[debug]   Load.apply: structureIndex took 25.2802ms
+[debug]   Load.apply: mkStreams took 0.0025ms
+[info] loading global plugins from C:\Users\soroc\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 321.0988ms
+[debug]           Load.loadUnit: plugins took 22.0332ms
+[debug]           Load.loadUnit: defsScala took 0.0047ms
+[debug] [Loading] Scanning directory C:\Users\soroc\Documents\Akka-wordspace\untitled\project
+[debug]             Load.loadUnit: mkEval took 0.3056ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\soroc\Documents\Akka-wordspace\untitled\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.4319 ms
+[info] loading settings for project untitled-build from idea.sbt ...
+[debug]               Load.resolveProject(untitled-build) took 1.3823ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id untitled-build, base: C:\Users\soroc\Documents\Akka-wordspace\untitled\project, plugins: List(<none>))) took 3.2582ms
+[debug] [Loading] Done in C:\Users\soroc\Documents\Akka-wordspace\untitled\project, returning: (untitled-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 18.7423ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.5596ms
+[debug]         Load.loadUnit(file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/project/, ...) took 44.2722ms
+[debug]       Load.apply: load took 45.6701ms
+[debug]       Load.apply: resolveProjects took 0.1173ms
+[debug]       Load.apply: finalTransforms took 5.2228ms
+[debug]       Load.apply: config.delegates took 0.2707ms
+[debug]       Load.apply: Def.make(settings)... took 61.3243ms
+[debug]       Load.apply: structureIndex took 20.2858ms
+[debug]       Load.apply: mkStreams took 0.0022ms
+[info] loading project definition from C:\Users\soroc\Documents\Akka-wordspace\untitled\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 450.316ms
+[debug]     Load.loadUnit: defsScala took 0.0026ms
+[debug] [Loading] Scanning directory C:\Users\soroc\Documents\Akka-wordspace\untitled
+[debug]       Load.loadUnit: mkEval took 0.2196ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\soroc\Documents\Akka-wordspace\untitled, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.6201 ms
+[info] loading settings for project untitled from build.sbt ...
+[debug]         Load.resolveProject(untitled) took 22.4454ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id untitled, base: C:\Users\soroc\Documents\Akka-wordspace\untitled, plugins: List(<none>))) took 24.5766ms
+[debug] [Loading] Done in C:\Users\soroc\Documents\Akka-wordspace\untitled, returning: (untitled)
+[debug]     Load.loadUnit: loadedProjectsRaw took 58.6393ms
+[debug]     Load.loadUnit: cleanEvalClasses took 11.8466ms
+[debug]   Load.loadUnit(file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/, ...) took 521.7488ms
+[debug] Load.apply: load took 523.2316ms
+[debug] Load.apply: resolveProjects took 0.1022ms
+[debug] Load.apply: finalTransforms took 16.1477ms
+[debug] Load.apply: config.delegates took 0.8283ms
+[debug] Load.apply: Def.make(settings)... took 50.6116ms
+[debug] Load.apply: structureIndex took 23.6932ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[warn] Discarding 1 session setting.  Use 'session save' to persist session settings.
+[info] set current project to untitled (in build file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to untitled (in build file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/soroc/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Writing structure to C:\Users\soroc\AppData\Local\Temp\sbt-structure.xml...
+[info] Done.
+[success] Total time: 0 s, completed 2021/06/14 20:07:06
+[debug] > Exec(session clear-all, None, None)
+[info] Reapplying settings...
+[info] set current project to untitled (in build file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/)
+[debug] > Exec(set ideaPort in Global := 61964, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to untitled (in build file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

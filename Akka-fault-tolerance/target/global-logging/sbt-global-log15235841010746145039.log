@@ -1,0 +1,9 @@
+[debug] > Exec(all {file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/}untitled/products {file:/C:/Users/soroc/Documents/Akka-wordspace/untitled/}untitled/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\soroc\Documents\Akka-wordspace\untitled\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 0 s, completed 2021/06/16 12:03:25
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
